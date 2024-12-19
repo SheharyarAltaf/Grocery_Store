@@ -124,6 +124,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="signup.Designer.cs">
+      <DependentUpon>signup.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControl\loginInputUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -175,6 +181,9 @@
     <EmbeddedResource Include="invoiocereport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>invoiocereport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="signup.resx">
+      <DependentUpon>signup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControl\loginInputUserControl.resx">
       <DependentUpon>loginInputUserControl.cs</DependentUpon>

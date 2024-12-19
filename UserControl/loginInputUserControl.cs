@@ -50,5 +50,11 @@ namespace grocery_store
             }
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            signup form1 = new signup();
+            form1.Show();
+        }
     }
 }
