@@ -14,6 +14,7 @@ namespace grocery_store
     {
         public DashboardForm1()
         {
+
             InitializeComponent();
         }
 
