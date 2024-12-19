@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="InvoiceDataSet" targetNamespace="http://tempuri.org/InvoiceDataSet.xsd" xmlns:mstns="http://tempuri.org/InvoiceDataSet.xsd" xmlns="http://tempuri.org/InvoiceDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="InvoiceDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="InvoiceDataSet" msprop:Generator_UserDSName="InvoiceDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Invoice_x0020_Table" msprop:Generator_TableClassName="Invoice_TableDataTable" msprop:Generator_TableVarName="tableInvoice_Table" msprop:Generator_TablePropName="Invoice_Table" msprop:Generator_RowDeletingName="Invoice_TableRowDeleting" msprop:Generator_RowChangingName="Invoice_TableRowChanging" msprop:Generator_RowEvHandlerName="Invoice_TableRowChangeEventHandler" msprop:Generator_RowDeletedName="Invoice_TableRowDeleted" msprop:Generator_UserTableName="Invoice Table" msprop:Generator_RowChangedName="Invoice_TableRowChanged" msprop:Generator_RowEvArgName="Invoice_TableRowChangeEvent" msprop:Generator_RowClassName="Invoice_TableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="invoice_id" msprop:Generator_ColumnVarNameInTable="columninvoice_id" msprop:Generator_ColumnPropNameInRow="invoice_id" msprop:Generator_ColumnPropNameInTable="invoice_idColumn" msprop:Generator_UserColumnName="invoice_id" type="xs:string" minOccurs="0" />
+              <xs:element name="invoice_date" msprop:Generator_ColumnVarNameInTable="columninvoice_date" msprop:Generator_ColumnPropNameInRow="invoice_date" msprop:Generator_ColumnPropNameInTable="invoice_dateColumn" msprop:Generator_UserColumnName="invoice_date" type="xs:string" minOccurs="0" />
+              <xs:element name="total_bill" msprop:Generator_ColumnVarNameInTable="columntotal_bill" msprop:Generator_ColumnPropNameInRow="total_bill" msprop:Generator_ColumnPropNameInTable="total_billColumn" msprop:Generator_UserColumnName="total_bill" type="xs:string" minOccurs="0" />
+              <xs:element name="user_id" msprop:Generator_ColumnVarNameInTable="columnuser_id" msprop:Generator_ColumnPropNameInRow="user_id" msprop:Generator_ColumnPropNameInTable="user_idColumn" msprop:Generator_UserColumnName="user_id" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="InvoiceItems" msprop:Generator_TableClassName="InvoiceItemsDataTable" msprop:Generator_TableVarName="tableInvoiceItems" msprop:Generator_TablePropName="InvoiceItems" msprop:Generator_RowDeletingName="InvoiceItemsRowDeleting" msprop:Generator_RowChangingName="InvoiceItemsRowChanging" msprop:Generator_RowEvHandlerName="InvoiceItemsRowChangeEventHandler" msprop:Generator_RowDeletedName="InvoiceItemsRowDeleted" msprop:Generator_UserTableName="InvoiceItems" msprop:Generator_RowChangedName="InvoiceItemsRowChanged" msprop:Generator_RowEvArgName="InvoiceItemsRowChangeEvent" msprop:Generator_RowClassName="InvoiceItemsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnDataColumn1" msprop:Generator_ColumnPropNameInRow="DataColumn1" msprop:Generator_ColumnPropNameInTable="DataColumn1Column" msprop:Generator_UserColumnName="DataColumn1" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

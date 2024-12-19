@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="InvoiceDataSet1" targetNamespace="http://tempuri.org/InvoiceDataSet1.xsd" xmlns:mstns="http://tempuri.org/InvoiceDataSet1.xsd" xmlns="http://tempuri.org/InvoiceDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="InvoiceDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="InvoiceDataSet1" msprop:Generator_UserDSName="InvoiceDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="InvoiceTable" msprop:Generator_TableClassName="InvoiceTableDataTable" msprop:Generator_TableVarName="tableInvoiceTable" msprop:Generator_TablePropName="InvoiceTable" msprop:Generator_RowDeletingName="InvoiceTableRowDeleting" msprop:Generator_RowChangingName="InvoiceTableRowChanging" msprop:Generator_RowEvHandlerName="InvoiceTableRowChangeEventHandler" msprop:Generator_RowDeletedName="InvoiceTableRowDeleted" msprop:Generator_UserTableName="InvoiceTable" msprop:Generator_RowChangedName="InvoiceTableRowChanged" msprop:Generator_RowEvArgName="InvoiceTableRowChangeEvent" msprop:Generator_RowClassName="InvoiceTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="invoice_id" msprop:Generator_ColumnVarNameInTable="columninvoice_id" msprop:Generator_ColumnPropNameInRow="invoice_id" msprop:Generator_ColumnPropNameInTable="invoice_idColumn" msprop:Generator_UserColumnName="invoice_id" type="xs:string" minOccurs="0" />
+              <xs:element name="invoice_date" msprop:Generator_ColumnVarNameInTable="columninvoice_date" msprop:Generator_ColumnPropNameInRow="invoice_date" msprop:Generator_ColumnPropNameInTable="invoice_dateColumn" msprop:Generator_UserColumnName="invoice_date" type="xs:string" minOccurs="0" />
+              <xs:element name="total_bill" msprop:Generator_ColumnVarNameInTable="columntotal_bill" msprop:Generator_ColumnPropNameInRow="total_bill" msprop:Generator_ColumnPropNameInTable="total_billColumn" msprop:Generator_UserColumnName="total_bill" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="InvoiceItemsTable" msprop:Generator_TableClassName="InvoiceItemsTableDataTable" msprop:Generator_TableVarName="tableInvoiceItemsTable" msprop:Generator_TablePropName="InvoiceItemsTable" msprop:Generator_RowDeletingName="InvoiceItemsTableRowDeleting" msprop:Generator_RowChangingName="InvoiceItemsTableRowChanging" msprop:Generator_RowEvHandlerName="InvoiceItemsTableRowChangeEventHandler" msprop:Generator_RowDeletedName="InvoiceItemsTableRowDeleted" msprop:Generator_UserTableName="InvoiceItemsTable" msprop:Generator_RowChangedName="InvoiceItemsTableRowChanged" msprop:Generator_RowEvArgName="InvoiceItemsTableRowChangeEvent" msprop:Generator_RowClassName="InvoiceItemsTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnDataColumn1" msprop:Generator_ColumnPropNameInRow="DataColumn1" msprop:Generator_ColumnPropNameInTable="DataColumn1Column" msprop:Generator_UserColumnName="DataColumn1" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
