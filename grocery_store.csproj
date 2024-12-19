@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>grocery_store</RootNamespace>
     <AssemblyName>grocery_store</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -116,10 +117,10 @@
       <DependentUpon>invoiocereport.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="loginInputUserControl.cs">
+    <Compile Include="UserControl\loginInputUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="loginInputUserControl.Designer.cs">
+    <Compile Include="UserControl\loginInputUserControl.Designer.cs">
       <DependentUpon>loginInputUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="productSelectionForm.cs">
@@ -136,10 +137,10 @@
     <Compile Include="ReportInvoiceForm.Designer.cs">
       <DependentUpon>ReportInvoiceForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControl1.cs">
+    <Compile Include="UserControl\UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControl1.Designer.cs">
+    <Compile Include="UserControl\UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AddProductForm.resx">
@@ -168,7 +169,7 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>invoiocereport.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="loginInputUserControl.resx">
+    <EmbeddedResource Include="UserControl\loginInputUserControl.resx">
       <DependentUpon>loginInputUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="productSelectionForm.resx">
@@ -182,11 +183,12 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="ReportInvoiceForm.resx">
       <DependentUpon>ReportInvoiceForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControl1.resx">
+    <EmbeddedResource Include="UserControl\UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="InvoiceDataSet.xsc">
@@ -227,6 +229,7 @@
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
