@@ -41,7 +41,8 @@ namespace grocery_store
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
-
+            ServiceReference1.Service1Client client = new ServiceReference1.Service1Client();
+            
         }
 
         private void userControl11_Load(object sender, EventArgs e)
