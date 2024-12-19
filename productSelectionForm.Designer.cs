@@ -37,17 +37,17 @@
             // 
             this.dgvProducts.AllowUserToAddRows = false;
             this.dgvProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvProducts.Location = new System.Drawing.Point(77, 1);
+            this.dgvProducts.Location = new System.Drawing.Point(89, 49);
             this.dgvProducts.Name = "dgvProducts";
             this.dgvProducts.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvProducts.Size = new System.Drawing.Size(240, 150);
+            this.dgvProducts.Size = new System.Drawing.Size(690, 377);
             this.dgvProducts.TabIndex = 0;
             this.dgvProducts.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dgvProducts_KeyDown);
             this.dgvProducts.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.dgvProducts_KeyPress);
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(165, 184);
+            this.btnCancel.Location = new System.Drawing.Point(395, 446);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 1;
@@ -59,7 +59,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(402, 261);
+            this.ClientSize = new System.Drawing.Size(890, 481);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.dgvProducts);
             this.Name = "productSelectionForm";

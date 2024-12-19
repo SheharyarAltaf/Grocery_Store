@@ -17,6 +17,7 @@ namespace grocery_store
         public ReportInvoiceForm( int InvoiceId)
         {   
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
             this.InvoiceId = InvoiceId;
         }
 

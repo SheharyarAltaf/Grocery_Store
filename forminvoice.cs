@@ -18,6 +18,7 @@ namespace grocery_store
         public forminvoice()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void txtSearch_KeyPress(object sender, KeyPressEventArgs e)

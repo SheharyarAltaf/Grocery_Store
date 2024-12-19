@@ -17,6 +17,7 @@ namespace grocery_store
         {
             this.totalBill = totalBill;
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void btnCancel_Click(object sender, EventArgs e)

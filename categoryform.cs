@@ -17,6 +17,7 @@ namespace grocery_store
         public categoryform()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void btnAdd_Click(object sender, EventArgs e)

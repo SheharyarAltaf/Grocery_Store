@@ -18,6 +18,7 @@ namespace grocery_store
         public AddProductForm()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void AddProductForm_Load(object sender, EventArgs e)

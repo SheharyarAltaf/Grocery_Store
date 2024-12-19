@@ -18,6 +18,7 @@ namespace grocery_store
         public productSelectionForm(DataTable dt)
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
             this.dt = dt;
         }
 
