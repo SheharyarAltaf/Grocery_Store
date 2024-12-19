@@ -37,30 +37,33 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.dgvCategory = new System.Windows.Forms.DataGridView();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCategory)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(24, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 13);
+            this.label1.Size = new System.Drawing.Size(50, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Cat ID";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(26, 94);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(23, 80);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 13);
+            this.label2.Size = new System.Drawing.Size(83, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "CatName";
             // 
             // txtCatId
             // 
-            this.txtCatId.Location = new System.Drawing.Point(78, 39);
+            this.txtCatId.Location = new System.Drawing.Point(115, 38);
             this.txtCatId.Name = "txtCatId";
             this.txtCatId.Size = new System.Drawing.Size(100, 20);
             this.txtCatId.TabIndex = 2;
@@ -68,7 +71,7 @@
             // 
             // txtCatName
             // 
-            this.txtCatName.Location = new System.Drawing.Point(78, 91);
+            this.txtCatName.Location = new System.Drawing.Point(115, 80);
             this.txtCatName.Name = "txtCatName";
             this.txtCatName.Size = new System.Drawing.Size(100, 20);
             this.txtCatName.TabIndex = 3;
@@ -76,58 +79,79 @@
             // rdoavailable
             // 
             this.rdoavailable.AutoSize = true;
+            this.rdoavailable.BackColor = System.Drawing.Color.DarkSlateGray;
             this.rdoavailable.Checked = true;
+            this.rdoavailable.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.rdoavailable.Location = new System.Drawing.Point(27, 159);
             this.rdoavailable.Name = "rdoavailable";
             this.rdoavailable.Size = new System.Drawing.Size(68, 17);
             this.rdoavailable.TabIndex = 4;
             this.rdoavailable.TabStop = true;
             this.rdoavailable.Text = "Available";
-            this.rdoavailable.UseVisualStyleBackColor = true;
+            this.rdoavailable.UseVisualStyleBackColor = false;
             // 
             // rdoUnavailable
             // 
             this.rdoUnavailable.AutoSize = true;
+            this.rdoUnavailable.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.rdoUnavailable.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.rdoUnavailable.Location = new System.Drawing.Point(27, 201);
             this.rdoUnavailable.Name = "rdoUnavailable";
             this.rdoUnavailable.Size = new System.Drawing.Size(81, 17);
             this.rdoUnavailable.TabIndex = 5;
             this.rdoUnavailable.Text = "Unavailable";
-            this.rdoUnavailable.UseVisualStyleBackColor = true;
+            this.rdoUnavailable.UseVisualStyleBackColor = false;
             // 
             // btnAdd
             // 
+            this.btnAdd.BackColor = System.Drawing.Color.Teal;
+            this.btnAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnAdd.Location = new System.Drawing.Point(27, 258);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 6;
             this.btnAdd.Text = "Add";
-            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.UseVisualStyleBackColor = false;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnUpdate
             // 
+            this.btnUpdate.BackColor = System.Drawing.Color.Teal;
+            this.btnUpdate.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnUpdate.Location = new System.Drawing.Point(126, 258);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(75, 23);
             this.btnUpdate.TabIndex = 7;
             this.btnUpdate.Text = "Update";
-            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.UseVisualStyleBackColor = false;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // dgvCategory
             // 
+            this.dgvCategory.BackgroundColor = System.Drawing.Color.Teal;
             this.dgvCategory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCategory.Location = new System.Drawing.Point(231, 94);
             this.dgvCategory.Name = "dgvCategory";
             this.dgvCategory.Size = new System.Drawing.Size(454, 258);
             this.dgvCategory.TabIndex = 8;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Uighur", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(240, 56);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(139, 35);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Category Lists";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
             // categoryform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(697, 393);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.dgvCategory);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnAdd);
@@ -157,5 +181,6 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.DataGridView dgvCategory;
+        private System.Windows.Forms.Label label3;
     }
 }
